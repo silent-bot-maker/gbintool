@@ -1,0 +1,12 @@
+apply plugin: 'groovy'
+
+apply plugin: 'application'
+mainClassName = 'fr.uvsq.doosa.gradletuto.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.5'
+}
